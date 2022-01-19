@@ -1,0 +1,71 @@
+/* div
+{
+    background-color: red;
+    display: inline;
+}
+
+a
+{
+    background-color: red;
+    display: block;
+} */
+/* p
+{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+} */
+
+/* Flex Box Starts */
+
+.parent
+{
+    background-color: green;
+    border:5px solid purple;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.parent p
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+/* .child-5,.child-2,.child-8
+{
+    align-self: flex-start;
+}
+
+.child-1,.child-4,.child-9
+{
+    align-self: flex-end;
+} */
+
+.child-1
+{
+    order: 3;
+}
+
+.child-2
+{
+    order: 1;
+}
+.child-3
+{
+    order: 4;
+}
+.child-4
+{
+    order: 2;
+}

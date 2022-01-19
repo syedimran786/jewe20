@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgb(226, 220, 220);
+}
+
+.fb-login,.fb-signup
+{
+    color: white;
+    width: 210px;
+    padding: 7px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    /* margin: 20px; */
+}
+.fb-signup
+{
+    background-color: rgb(9, 218, 9);
+   
+}
+.fb-login
+{
+    background-color: rgb(81, 81, 226);
+    width: 100%;
+}
+
+.inp
+{
+    border: .6px solid lightgrey;
+    border-radius: 4px;
+    padding: 7px;
+    outline: none;
+    width: 94%;
+   
+}
+.inp:focus::placeholder
+{
+    color: lightgrey;
+}
+
+.inp1 
+{
+    margin-top: -8px;
+}
+
+.fb-form
+{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    margin: 50px auto;
+    margin-top: -10px;
+}
+
+h1
+{
+    color: rgb(81, 81, 226);
+    font-size: 40px;
+    text-align: center;
+    
+}
