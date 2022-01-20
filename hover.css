@@ -1,0 +1,28 @@
+.parent
+{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    border:5px solid purple
+}
+
+.parent:hover
+{
+    background-color: hotpink;
+    /* background-color: transparent; */
+    color: white;
+    /* border-radius: 100%; */
+    width: 400px;
+    height: 400px;
+}
+.parent img
+{
+    height: 200px;
+    width: 100px;
+}
+
+.parent:hover img
+{
+    border: 5px solid orange;
+    border-radius: 100%;
+}
