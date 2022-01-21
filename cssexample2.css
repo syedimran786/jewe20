@@ -1,0 +1,67 @@
+/* .parent
+{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid purple;
+    margin: 100px;
+    overflow: hidden;
+}
+
+.child
+{
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+}
+
+.child:hover
+{
+    transform: scale(1.2);
+} */
+
+.parent1
+{
+    /* border:5px groove purple; */
+    width: 300px;
+    height: 300px;
+    margin: 60px;
+    position: relative;
+    overflow: hidden;
+    transition: all 3s;
+   
+}
+
+.parent1:hover
+{
+    box-shadow: 5px 5px 60px 10px purple ;
+}
+
+.img-child
+{
+    height: 100%;
+    width: 100%;
+}
+
+.child1
+{
+    background-color: rgba(0, 0, 0, 0.787);
+    height: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    transition: all 4s;
+}
+
+.parent1:hover .child1
+{
+    visibility: visible;
+    height: 100%;
+    /* transform: scale(1.1); */
+    /* transform: rotatey(360deg); */
+    
+}

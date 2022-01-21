@@ -1,0 +1,26 @@
+.my-div
+{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+     background-image: url("https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585__340.jpg");
+    background-repeat: no-repeat;
+    background-size: 1005 100%;
+    /* width: 500px; */
+    /* transition:  background-color 10s,width 5s; */
+    margin: 60px;
+    transition:  all 2s;
+}
+.my-div:hover
+{
+    background-color: green;
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585__340.jpg");
+    background-repeat: no-repeat;
+    background-size: 1005 100%;
+    width: 500px; */
+    /* transform: rotate(-360deg); */
+    /* transform: rotatey(360deg); */
+    /* transform: scale(1.6,1.6); */
+    transform: scale(1.6);
+
+}
