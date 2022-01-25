@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar starts */
+nav
+{
+    background-color: white;
+    padding: 12px 20px 20px 40px;
+}
+
+nav ul
+{
+    display: inline;
+    margin-left: 346px;
+}
+
+nav ul li
+{
+    display: inline;
+}
+nav ul li a
+{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+    font-weight: 200;
+}
+
+nav ul li a:hover
+{
+    color: #5cb874;
+}
+
+.brand-logo
+{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #5cb874;
+    margin-left: 62px;
+}
+.nav-btn
+{
+    border: 2px solid #5cb874;
+    padding: 8px 23px;
+    border-radius: 5px;
+    color: #5cb874;
+    letter-spacing: 1px;
+    transition:all .3s ;
+}
+
+.nav-btn:hover
+{
+    background-color: #5cb874; 
+    color: white;
+}
+/* Navbar ends */
+
+/* banner starts */
+    .banner
+    {
+        background-color: red;
+        background-image: linear-gradient(rgba(30, 80, 42, 0.822),rgba(31, 82, 45, 0.705)),
+        url("https://bootstrapmade.com/demo/templates/Green/assets/img/slide/slide-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content
+    {
+        /* border: 2px solid red; */
+        width: 1000px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+    }
+    .banner-content h1
+    {
+        font-size: 45px;
+    }
+    .banner-content p
+    {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-weight: 500;
+
+    }
+
+    .banner-btn
+    {
+        background-color: #5cb874;
+        border: 2px solid #5cb874;
+        padding: 8px 23px;
+        border-radius: 5px;
+        color: white;
+        letter-spacing: 1px;
+        text-decoration: none;
+        transition:all .3s ;
+    }
+    .banner-btn:hover
+    {
+        background-color: #4ac76c;
+        
+    }
+/* banner ends */
