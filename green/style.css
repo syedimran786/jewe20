@@ -130,6 +130,7 @@ nav ul li a:hover
     margin: 40px 80px;
     display: flex;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 .icons-child
 {
@@ -224,3 +225,170 @@ nav ul li a:hover
     color: gray;
 }
 /* aboutus ends */
+/* our clients starts */
+.clients
+{
+    /* border: 5px solid red; */
+    margin: 70px;
+}
+.clients-child
+{
+    /* border: 5px solid purple; */
+    margin: 20px
+}
+.clients-child img
+{
+    width: 142px;
+    height: 37px;
+    margin: 20px 18px;
+    opacity: 0.3;
+    transition: opacity .5s;
+    
+}
+.clients-child img:hover
+{
+    opacity: 1;
+}
+.clients .para,.clients h1
+{
+    text-align: center;
+}
+.clients .para
+{
+    color: gray;
+}
+.clients hr
+{
+    background-color: #4ac76c;
+    height: 5px;
+    width: 50px;
+    border: none;
+    margin: 20px auto;
+}
+
+/* our clients ends */
+
+/* services starts */
+.services
+{
+    /* border: 5px solid red; */
+    margin: 70px;
+}
+.services-child
+{
+    /* border:5px solid purple; */
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(211, 211, 211, 0.15);
+}
+.services-cards
+{
+    /* border: 5px solid yellow; */
+    margin: 20px;
+    width: 320px;
+    height: 300px;
+    background-color: white;
+    transition: box-shadow .5s;
+}
+.services-cards:hover
+{
+    box-shadow: 3px 3px 50px 10px rgba(128, 128, 128, 0.13);
+}
+.card-content
+{
+    /* border: 5px solid blue; */
+    margin: 45px 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
+.card-content h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services .para,.services h1
+{
+    text-align: center;
+}
+.services .para
+{
+    color: gray;
+}
+.services hr
+{
+    background-color: #4ac76c;
+    height: 5px;
+    width: 50px;
+    border: none;
+    margin: 20px auto;
+}
+.card-content i
+{
+    font-size:35px;
+    background-color: rgba(211, 211, 211, 0.438);
+    padding: 15px 15px;
+    padding-bottom: 5px;
+    width: 80px;
+    height: 70px;
+    border-radius: 100%;
+    transition:all .5s;
+}
+.fa-dribbble
+{
+    color: cyan; 
+}
+.services-cards:hover .fa-dribbble
+{
+    background-color: cyan;
+    color: white;
+}
+.fa-file-invoice
+{
+    color: tomato;
+}
+.services-cards:hover .fa-file-invoice
+{
+    background-color: tomato;
+    color: white;
+}
+.fa-tachometer
+{
+    color: crimson;
+}
+.services-cards:hover .fa-tachometer
+{
+    background-color: crimson;
+    color: white;
+}
+.fa-layer-group
+{
+    color: rgb(238, 187, 21);
+}
+.services-cards:hover .fa-layer-group
+{
+    background-color: rgb(238, 187, 21);
+    color: white;
+}
+.fa-presentation
+{
+    color: orangered;
+}
+.services-cards:hover .fa-presentation
+{
+    background-color: orangered;
+    color: white;
+}
+.fa-archway
+{
+    color: aqua;
+}
+.services-cards:hover .fa-archway
+{
+    background-color: aqua;
+    color: white;
+}
+
+/* services ends */
