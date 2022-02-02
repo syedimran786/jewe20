@@ -392,3 +392,100 @@ nav ul li a:hover
 }
 
 /* services ends */
+
+/* cta starts */
+.cta
+{
+    /* border: 5px solid red; */
+    background-color: #4ac76c;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.child-1,.child-2
+{
+    /* border: 5px solid purple; */
+    margin: 20px;
+}
+.child-1
+{
+    width: 1047px;
+    color: white;
+}
+.cta .child-1 h1
+{
+    margin-bottom: 20px;
+}
+.child-2
+{
+    /* border: 1px solid red; */
+    width: 500px;
+    padding: 50px 100px;
+}
+.cta .child-2 a
+{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 9px 27px;
+    border-radius: 4px;
+    transition:all .5s;
+}
+.cta .child-2 a:hover
+{
+    background-color: white;
+    color: #4ac76c;
+}
+/* cta Ends */
+
+/* portfolio starts */
+.portfolio
+{
+    /* border: 5px solid red; */
+    margin: 80px;
+}
+.portfolio-images 
+{
+    /* border: 5px solid purple; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image
+{
+    /* border: 5px solid green; */
+    margin: 20px;
+    width: 348px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.image-content
+{
+    /* border: 5px solid orange; */
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+.portfolio-images .image img
+{
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.image:hover img
+{
+    transform: scale(1.2);
+}
+.image:hover .image-content
+{
+    visibility: visible;
+}
+/* portfolio ends */
